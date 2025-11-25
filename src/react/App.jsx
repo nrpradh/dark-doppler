@@ -4,7 +4,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <h1>Arven Kaito</h1>
+      <h1>The Blue Serenity </h1>
     </>
   );
 }

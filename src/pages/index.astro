@@ -1,39 +1,40 @@
 ---
 import App from "../react/App.jsx";
 
-const title = "Arven Kaito – Developer Portfolio";
-const description = "Portfolio for Arven Kaito, showcasing projects, skills, and contact information.";
+const title = "The Blue Serenity – Portfolio Website";
+const description = "The Blue Serenity is a personal web portfolio showcasing projects, creativity, and digital craftsmanship.";
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<head>
+		<meta charset="UTF-8" />
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://arvenkaito.com/" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- OpenGraph -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/og-image.png" />
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://theblueserenity.com/" />
 
-    <!-- JSON-LD Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Arven Kaito",
-        "jobTitle": "Frontend Developer",
-        "url": "https://arvenkaito.com"
-      }
-    </script>
-  </head>
+		<!-- OpenGraph -->
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="/og-image.png" />
 
-  <body>
-    <App client:load />
-  </body>
+		<!-- JSON-LD Schema -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "CreativeWork",
+			"name": "The Blue Serenity",
+			"url": "https://theblueserenity.com",
+			"description": "A digital portfolio presented under the alias 'The Blue Serenity', showcasing creative projects and development work."
+		}
+		</script>
+	</head>
+
+	<body>
+		<App client:load />
+	</body>
 </html>
