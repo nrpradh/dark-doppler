@@ -1,1 +1,67 @@
 @import "tailwindcss";
+
+@theme {
+    --font-antonio-thin: "Antonio-Thin", sans-serif;
+    --font-antonio-extralight: "Antonio-ExtraLight", sans-serif;
+    --font-antonio-light: "Antonio-Light", sans-serif;
+    --font-antonio-regular: "Antonio-Regular", sans-serif;
+    --font-antonio-medium: "Antonio-Medium", sans-serif;
+    --font-antonio-semibold: "Antonio-SemiBold", sans-serif;
+    --font-antonio-bold: "Antonio-Bold", sans-serif;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+h1 {
+    @apply uppercase font-antonio-regular lg:text-[188px] text-5xl
+}
+
+
+h2 {
+    @apply  uppercase font-antonio-regular lg:text-5xl text-3xl
+}
+
+
+h3, nav {
+    @apply uppercase font-antonio-medium text-3xl
+}
+
+
+
+/* Each Antonio FONTS */
+@font-face {
+    font-family: "Antonio-Thin";
+    src: url("/public/fonts/Antonio-Thin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Antonio-ExtraLight";
+    src: url("/public/fonts/Antonio-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Antonio-Light";
+    src: url("/public/fonts/Antonio-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Antonio-Regular";
+    src: url("/public/fonts/Antonio-Regular.ttf") format("truetype");
+    }
+
+@font-face {
+    font-family: "Antonio-Medium";
+    src: url("/public/fonts/Antonio-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Antonio-SemiBold";
+    src: url("/public/fonts/Antonio-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Antonio-Bold";
+    src: url("/public/fonts/Antonio-Bold.ttf") format("truetype");
+}
