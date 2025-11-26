@@ -1,5 +1,6 @@
 ---
 import App from "../App.jsx";
+import {BrowserRouter} from "react-router";
 import "../styles/global.css";
 
 const title = "Tux8o – Portfolio Website";
@@ -36,6 +37,6 @@ const description = "Tux8o is a personal web portfolio showcasing projects, crea
 	</head>
 
 	<body>
-		<App client:load />
+		<App client:only="react"/>
 	</body>
 </html>

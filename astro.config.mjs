@@ -9,5 +9,11 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  integrations: [react()]
+  integrations: [react()],
+  // redirects: {
+  //   "/error": {
+  //     status: 301,
+  //     destination:"/landing"
+  //   }
+  // }
 });

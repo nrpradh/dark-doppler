@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+
+    /* Antonio */
     --font-antonio-thin: "Antonio-Thin", sans-serif;
     --font-antonio-extralight: "Antonio-ExtraLight", sans-serif;
     --font-antonio-light: "Antonio-Light", sans-serif;
@@ -8,6 +10,14 @@
     --font-antonio-medium: "Antonio-Medium", sans-serif;
     --font-antonio-semibold: "Antonio-SemiBold", sans-serif;
     --font-antonio-bold: "Antonio-Bold", sans-serif;
+
+    /* DMSans */
+    --font-dm-sans-italic:"DM-Sans-Italic", sans-serif;
+    --font-dm-sans-light:"DM-Sans-Light", sans-serif;
+    --font-dm-sans-regular:"DM-Sans-Regular", sans-serif;
+    --font-dm-sans-medium:"DM-Sans-Medium", sans-serif;
+    --font-dm-sans-semibold:"DM-Sans-Semibold", sans-serif;
+    --font-dm-sans-bold:"DM-Sans-Bold", sans-serif;
 }
 
 body {
@@ -15,17 +25,30 @@ body {
 }
 
 h1 {
-    @apply uppercase font-antonio-regular lg:text-[188px] text-5xl
+    @apply uppercase font-antonio-regular md:text-[188px]  text-5xl
 }
-
 
 h2 {
-    @apply  uppercase font-antonio-regular lg:text-5xl text-3xl
+    @apply uppercase font-antonio-regular md:text-8xl  text-5xl
 }
 
 
-h3, nav {
+
+h3 {
+    @apply  uppercase font-antonio-regular md:text-5xl text-3xl
+}
+
+
+h4, nav {
     @apply uppercase font-antonio-medium text-3xl
+}
+
+li, time, h5, p {
+    @apply font-dm-sans-regular  md:text-xl mb-2
+}
+
+.img-preview {
+    @apply object-cover object-center rounded border-2
 }
 
 
@@ -64,4 +87,41 @@ h3, nav {
 @font-face {
     font-family: "Antonio-Bold";
     src: url("/public/fonts/Antonio-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Antonio-Bold";
+    src: url("/public/fonts/DM_Sans/") format("truetype");
+}
+
+/* Each DM Sans FONTS */
+
+@font-face {
+    font-family: "DM-Sans-Italic";
+    src: url("/public/fonts/DMSans/DMSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DM-Sans-Light";
+    src: url("/public/fonts/DMSans/DMSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DM-Sans-Regular";
+    src: url("/public/fonts/DMSans/DMSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DM-Sans-Medium";
+    src: url("/public/fonts/DMSans/DMSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DM-Sans-Semibold";
+    src: url("/public/fonts/DMSans/DMSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DM-Sans-Bold";
+    src: url("/public/fonts/DMSans/DMSans-Bold.ttf") format("truetype");
 }

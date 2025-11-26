@@ -1,0 +1,527 @@
+[
+    {
+        "id": 1,
+        "category": {
+        "Service": ["UI/UX Design"],
+        "Platform": ["Website"],
+        "scope": ["Personal", "Exploration"],
+        "output":["Concept"],
+        "timeline": "2023"
+        },
+        "overview": {
+        "title": "Happier, Healthier",
+        "description": "The website offers comprehensive information on healthy foods, nutrition, and various lifestyle choices that contribute to overall well-being and a healthier life.",
+        "purpose": [
+            "Provide accessible information on healthy foods, nutrition, and lifestyle choices"
+        ],
+        "problem": [
+            "Existing information can be overwhelming or too complex for beginners",
+            "Difficulty finding reliable and simple resources on health and nutrition"
+        ],
+        "solution": [
+            "Created a user-friendly website with clear health and lifestyle guidance for all ages"
+        ]
+        },
+        "underthehood": {
+        "background": "My first-ever website design and UI/UX project, completed as an assignment while part of GDSC ITS. I learned through an online platform and pushed myself to improve.",
+        "myrole": ["Handled UI/UX design"],
+        "creditto": ["null"],
+        "tools": ["Figma"],
+        "links": {
+            "site": "#",
+            "github": "#",
+            "figma": "#"
+        }
+        },
+        "snapshots": [
+        "/img/Happier, Healthier/HHMockup.png",
+        "/img/Happier, Healthier/HHAll.png"
+        ]
+    },
+    {
+        "id": 2,
+        "category": {
+        "Service": ["UI/UX Design"],
+        "Platform": ["Mobile"],
+        "scope": ["Personal", "Exploration"],
+        "output":["Concept"],
+        "timeline": "2023"
+        },
+        "overview": {
+        "title": "Eventour",
+        "description": "An event management app that organizes and tracks events, functioning as an information system for nearby and distant happenings.",
+        "purpose": [
+            "Provide a unified hub for discovering, creating, and managing events",
+            "increase student and community engagement",
+            "Offer an intuitive interface suitable for all age groups"
+        ],
+        "problem": [
+            "Hard to keep track of what’s happening, especially locally",
+            "Miss out on events due to lack of visibility",
+            "Complex platforms often to be found"
+        ],
+        "solution": [
+            "Consolidates all event-related information in one place",
+            "Improved event discovery",
+            "Delivered simple, user-friendly design for all ages"
+        ]
+        },
+        "underthehood": {
+        "background": "Driven by the requirements of my college final exam project,  developed a mobile app using React Native, with a strong focus on simplicity to ensure a better user experience.",
+        "myrole": [ "Handled mobile app development"],
+        "creditto": ["null"],
+        "tools": ["Dribbble", "Expo", "ReactNative", "Javascript", "Firebase"],
+        "links": {
+            "site": "#",
+            "github": "https://github.com/nrpradh/MyAuthApp",
+            "figma": "#"
+        }
+        },
+        "snapshots": [
+        "/img/Eventour/EtourThumb.png", "/img/Eventour/EtourAll.png", "/img/Eventour/Overall.png"
+        ]
+    },
+    {
+        "id": 3,
+        "category": {
+        "Service": ["UI/UX Design"],
+        "Platform": ["Mobile"],
+        "scope": ["Personal", "Exploration"],
+        "output":["Concept"],
+        "timeline": "2023"
+        },
+        "overview": {
+        "title": "Coordocket",
+        "description": "A platform to streamline class scheduling with rotating volunteer teachers. Administrators can view and adjust assignments efficiently.",
+        "purpose": [
+            "Streamline scheduling of rotating volunteer teachers with tools for admin oversight and flexibility."
+        ],
+        "problem": [
+            "Manual scheduling is error-prone, lacks centralized tracking, and struggles with last-minute changes."
+        ],
+        "solution": [
+            "A simple interface with centralized schedules and announcement tools for quick updates."
+        ],
+        "vision": [
+            "A reliable scheduling system that keeps classes running smoothly and admins in control, even under changing conditions."
+        ]
+        },
+        "underthehood": {
+        "background": "Originally developed for a client, the project was canceled but redesigned it as valuable design practice.",
+        "myrole": ["Handled UI/UX design"],
+        "creditto": [],
+        "tools": ["Figma", "Dribbble", "Jira"],
+        "links": {
+            "site": "#",
+            "github": "#",
+            "figma": "#", 
+            "devpost": "#" 
+        }
+        },
+        "snapshots": [
+        "/img/Coordocket/Coord-Thumb.png",
+        "/img/Coordocket/Coord-All.png",
+        "/img/Coordocket/Coord-Thumb.png"
+        ]
+    },
+    {
+        "id": 4,
+        "category": {
+        "Service": ["UI/UX Design, Frontend"],
+        "Platform": ["Website","Mobile"],
+        "scope": ["Personal", "Collaborative"],
+        "output":["Prototype"],
+        "timeline": "2024"
+        },
+        "overview": {
+        "title": "Regrant",
+        "description": "A platform for donating and requesting used items, aimed at reducing waste, supporting communities, and promoting resource reuse.",
+            "purpose": [
+            "Reduce waste, support those in need, and promote sustainable reuse through community item sharing."
+            ],
+            "problem": [
+            "Item quality varies, trust is low, and coordination for exchanges is difficult and prone to misuse."
+            ],
+            "solution": [
+            "Enable item sharing with condition guidelines, trust ratings, and easy scheduling tools."
+            ],
+            "vision": [
+            "A trusted reuse platform that simplifies sharing while helping communities save money and reduce environmental impact."
+            ]
+        },
+        "underthehood": {
+        "background": "Started as a hackathon app and was later adapted into a group college project. I focused on both design and frontend.",
+        "myrole": ["Contributed to UI/UX design, Frontend"],
+        "creditto": [ {
+            "name": "Azisya, Backend", "linkedin": "https://www.linkedin.com/in/azisya-luthfi-bintang/",
+            "github": "https://github.com/luthfibintang"
+            },
+            {
+            "name": "Dika, Frontend", "linkedin": "https://www.linkedin.com/in/dika-arnanda-putra-44031b1a0/",
+            "github": "https://github.com/dikaarnnd"
+            },
+            {
+            "name": "Zikar, Backend", "linkedin": "https://www.linkedin.com/in/zikar-nurizky/",
+            "github": "https://github.com/zizky13"
+        } ],
+        "tools": ["Figma", "Dribbble", "Miro", "React", "TailwindCSS", "Javascript", "Firebase"],
+        "links": {
+            "site": "https://devpost.com/software/regrant",
+            "github": "https://github.com/luthfibintang/Regrant",
+            "figma": "#", 
+            "devpost":"https://devpost.com/software/regrant"
+        }
+        },
+        "snapshots": [
+        "/img/Regrant/Reg-Thumbn.jpg",
+        "/img/Regrant/Reg-MainFtrs.jpg",
+        "/img/Regrant/Reg-Fonts.png",
+        "/img/Regrant/Reg-Colors.png",
+        "/img/Regrant/Reg-Mockup1.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "category": {
+        "Service": ["UI/UX Design, Frontend"],
+        "Platform": ["Website"],
+        "scope": ["Personal", "Collaborative"],
+        "output":["Prototype"],
+        "timeline": "2024"
+        },
+        "overview": {
+        "title": "WaterWise",
+        "description": "WaterWise is an AI-driven app that tracks water usage and provides personalized recommendations to reduce waste and improve efficiency.",
+            "purpose": [
+            "Promote sustainable water habits through real-time tracking and easy-to-understand data."
+            ],
+            "problem": [
+            "People struggle to monitor water usage and lack clear guidance on reducing waste."
+            ],
+            "solution": [
+            "Provide intuitive visualizations and personalized tips to help users conserve water."
+            ],
+            "vision": [
+            "A smart, user-friendly platform that empowers conscious water usage through awareness and actionable insights."
+            ]
+        },
+        "underthehood": {
+        "background": "Designed during HackJakarta’s 'Community Resilience' track with a team of four. I led UI/UX and supported frontend development.",
+        "myrole": ["Contributed to UI/UX design, Frontend"], 
+        "creditto": [ {
+            "name": "Azisya, Backend", "linkedin": "https://www.linkedin.com/in/azisya-luthfi-bintang/",
+            "github": "https://github.com/luthfibintang"
+            },
+            {
+            "name": "Dika, Frontend", "linkedin": "https://www.linkedin.com/in/dika-arnanda-putra-44031b1a0/",
+            "github": "https://github.com/dikaarnnd"
+            },
+            {
+            "name": "Zikar, AI & Backend", "linkedin": "https://www.linkedin.com/in/zikar-nurizky/",
+            "github": "https://github.com/zizky13"
+        } ],
+        "tools": ["Figma", "Dribbble", "Miro", "React", "Vite", "Javascript", "TailwindCSS", "MUI", "NodeJS", "MongoDB"],
+        "links": {
+            "site": "#",
+            "github": "https://github.com/zizky13/WaterWise",
+            "figma": "#",
+            "devpost":"#"
+        }
+        },
+        "snapshots": [
+        "/img/WaterWise/WW-Thumby.png",
+        "/img/WaterWise/WW-All.png",
+        "/img/WaterWise/WW-Sitemap.png",
+        "/img/WaterWise/WWMainFt.png"
+        ]
+    },
+    {
+        "id": 6,
+        "category": {
+        "Service": ["UI/UX Design, Frontend"],
+        "Platform": ["Website"],
+        "scope": ["Personal", "Collaborative"],
+        "output":["Prototype"],
+        "timeline": "2025"
+        },
+        "overview": {
+        "title": "Expensure",
+        "description": "A budgeting and expense tracking app that simplifies financial goal setting and management with real-time tracking and clean UI.",
+        "purpose": [
+            "Help users track expenses effortlessly with clear insights and intuitive design."
+        ],
+        "problem": [
+            "People struggle with confusing interfaces and lack useful financial insights."
+        ],
+        "solution": [
+            "Minimal-input expense tracking with simple visuals and plain-language insights."
+        ],
+        "vision": [
+            "An easy, intelligent tool that makes personal finance tracking clear and stress-free."
+        ]
+        },
+        "underthehood": {
+        "background": "Was a final exam project completed with a team of two. I was responsible for designing the UI/UX and worked on the frontend ",
+        "myrole": ["Contributed to UI/UX design, Frontend"],
+        "creditto": [{
+            "name": "Dika, Backend", "linkedin": "https://www.linkedin.com/in/dika-arnanda-putra-44031b1a0/",
+            "github": "https://github.com/dikaarnnd"
+        }],
+        "tools": ["Figma", "Dribbble", "Laravel", "React", "TailwindCSS", "InertiaJS", "Laragon", "MySQL"],
+        "links": {
+            "site": "https://expense.my.id/",
+            "github": "https://github.com/dikaarnnd/Expense",
+            "figma": "#",  "devpost":"#"
+        }
+        },
+        "snapshots": [
+        "/img/Expensure/ExpThumb.png",
+        "/img/Expensure/ExpAll.png",
+        "/img/Expensure/ExpMainFt.png"
+        ]
+    },
+    {
+        "id": 7,
+        
+        "category": {
+            "Service": ["UI/UX Design"],
+            "Platform": ["Mobile"],
+            "scope": ["Personal", "Exploration"],
+            "output":["Concept"],
+        "timeline": "2025"
+        },
+        "overview": {
+            "title": "Ammcam",
+            "description": "An app for monitoring the Ammcam, an IoT device that detects loud noises and the arrival of guests. It records noise levels and guest activity, and can be used to identify unusual events and request assistance.",
+            "purpose": [
+            "Deliver a smart, all-in-one home security system using sound and vision for peace of mind."
+            ],
+            "problem": [
+            "No simple solution with offline alerts, intruder or noise detection, and footage saving."
+            ],
+            "solution": [
+            "Plug-and-play camera with sound and vision sensors for alerts and easy bookmarking."
+            ],
+            "vision": [
+            "A seamless, sensor-powered security system that keeps users aware and protected anywhere."
+            ]
+        },
+        "underthehood" : {
+            "background": "Inspired by an IoT project i worked on in college, i saw more potential in tracking and monitoring. This motivated me to design an app that builds on that experience and explores it further.",
+            "myrole": ["Handled UI/UX design"],
+            "creditto": [],
+            "tools": ["Figma", "Dribbble"],
+            "links": {
+            "site": "#",
+            "github": "#",
+            "figma": "#",
+            "devpost":"#"
+            }
+        },
+        
+        "snapshots": [
+            "/img/Ammcam/Ammc-Thumbn.jpg",
+            "/img/Ammcam/Ammc-MainFtrs.jpg",
+            "/img/Ammcam/Ammc-Sitemap.jpg",
+            "/img/Ammcam/Ammc-Fonts.png",
+            "/img/Ammcam/Ammc-Colors.png",
+            "/img/Ammcam/Ammc-Mockup1.jpg",
+            "/img/Ammcam/Ammc-Wirefr.jpg"
+        ]
+        
+        
+    },
+    {
+        "id": 8,
+
+        "category": {
+        "Service": ["UI/UX Design, Frontend"],
+        "Platform": ["Website"],
+        "scope": ["Personal", "Collaborative"],
+        "output":["Prototype"],
+        "timeline": "2025"
+        },
+        "overview": {
+        "title": "BintaroHub",
+        "description": "A media platform that connects people in the Bintaro area through forums. It is organized into various topics and categories, with all discussions focused on local matters.",
+        "purpose": [
+            "Central hub for sharing local information and encouraging community interaction in Bintaro."
+        ],
+        "problem": [
+            "Local info is scattered with no platform for residents to share or validate updates."
+        ],
+        "solution": [
+            "Community-driven platform with forums, voting, and real-time updates."
+        ],
+        "vision": [
+            "An engaged local network where residents can easily access, share, and prioritize neighborhood information together."
+        ]
+            
+            
+        },
+        "underthehood" : {
+            "background": "For a college project, my teammate and I built a Reddit-inspired forum for Bintaro, giving residents a central place to share, discuss, and verify local updates.",
+            "myrole": ["Contributed to UI/UX design, Frontend"],
+            "creditto": [{
+                "name": "Farras, Backend", "linkedin": "https://www.linkedin.com/in/muhammad-farras-thohari-ramadhan-213b23249/",
+                "github": "https://github.com/MuhammadFarrasThohari"
+            }],
+
+            "tools": ["Figma", "Dribbble", "React", "Vite", "Javascript", "Supabase"],
+            "links": {
+                "site": "#",
+                "github": "https://github.com/MuhammadFarrasThohari/BintaroHub",
+                "figma": "#",
+                "devpost":"#"
+            }
+        },
+        "snapshots": [
+            "/img/BintaroHub/BH-Thumb.png","/img/BintaroHub/BH-Feature.png",
+            "/img/BintaroHub/BH-Systems.png", "/img/BintaroHub/BH-All.png",
+            "/img/BintaroHub/BH-Wireframes.png"  
+        ]
+    },
+    {
+        "id": 9,
+        "category": {
+        "Service": ["UI/UX Design"],
+        "Platform": ["Website"],
+        "scope": ["Exploration"],
+        "output":["Concept"],
+        "timeline": "2025"
+        },
+        "overview": {
+            "title": "Took It Ingame",
+            "description": "A platform bringing together gamers and car enthusiasts to share stunning snapshots of their in-game rides, with easy downloads for wallpapers and personalized creations.",
+            "purpose": [
+            "Platform to post, share, and download in-game car snapshots."
+            ],
+            "problem": [
+            "No space to discover or organize custom builds easily."
+            ],
+            "solution": [
+            "Gallery platform with collection tools and a sharing community."
+            ],
+            "vision": [
+            "A visual vision of how a community-driven car gallery could look and feel."
+            ]
+            
+            
+        },
+        "underthehood" : {
+            "background": "Amazing in-game car builds were scattered online with no easy way to browse or save them. I built a gallery where gamers and car enthusiasts can share, discover, and download their favorite rides.",
+            "myrole": ["Handled UI/UX design"],
+            "creditto": [],
+            "tools": ["Figma"],
+            "links": {
+                "site": "#",
+                "github": "#",
+                "figma": "#",
+                "devpost": "#"
+            }
+        },
+        "snapshots": [
+            "/img/TookItIngame/TIG-Thumbn.png", "/img/TookItIngame/TIG-Mockup1.jpg",
+            "/img/TookItIngame/TIG-Mockup2.png", "/img/TookItIngame/TIG-DSys.png",
+            "/img/TookItIngame/TIG-All.png"  
+        ]
+        
+        
+    },
+    {
+        "id": 10,
+        "category": {
+        "Service": ["UI/UX Design", "Frontend"],
+        "Platform": ["Website"],
+        "scope": ["Personal", "Collaborative"],
+        "output":["Prototype"],
+        "timeline": "2025"
+        },
+        "overview": {
+            "title": "Envirolyst",
+            "description": "A platform that leverages satellite imagery and AI to analyze land use, monitor environmental conditions, and provide actionable sustainability recommendations.",
+            "purpose": [
+            "Empower businesses and communities with insights for responsible, sustainable decisions"
+            ],
+            "problem": [
+            "Unsustainable practices in Indonesia are causing deforestation, pollution, and ecosystem decline."
+            ],
+            "solution": [
+            "Envirolyst uses satellite imagery and AI to deliver tailored sustainability recommendations."
+            ],
+            "vision": [
+            "Empowering data-driven stewardship of the environment."
+            ]
+
+        },
+        "underthehood" : {
+            "background": "Envirolyst was built for GarudaHacks 6.0 sustainability track. We brought an AI recommendation system and satellite-based solution, finishing as top 7 finalists.",
+            "myrole": ["Contributed to UI/UX design, Frontend"],
+            "creditto": [{
+            "name": "Azisya, AI & Backend", "linkedin": "https://www.linkedin.com/in/azisya-luthfi-bintang/",
+            "github": "https://github.com/luthfibintang"
+            },{
+                "name": "Farras, AI & Backend", "linkedin": "https://www.linkedin.com/in/muhammad-farras-thohari-ramadhan-213b23249/",
+                "github": "https://github.com/MuhammadFarrasThohari"
+            }],
+            "tools": ["Figma", "React", "Vite", "Javascript", "GoogleMaps","Flask", "HuggingFace" ],
+            "links": {
+                "site": "#", "github": "https://github.com/MuhammadFarrasThohari/Envirolyst/tree/main",
+                "figma": "#",  "devpost": "https://devpost.com/software/enivrolyst"
+            }
+        },
+        "snapshots": [
+            "/img/Envirolyst/EL_Thumb.png",
+            "/img/Envirolyst/EL_Mockup1.png",
+            "/img/Envirolyst/EL_Mockup2.png",
+            "/img/Envirolyst/EL_Dsys.png",
+            "/img/Envirolyst/EL_All.png"
+        ]
+        
+        
+    },
+    {
+        "id": 11,
+        "category": {
+        "Service": ["UI/UX Design"],
+        "Platform": ["Website"],
+        "scope": ["Personal, Exploration"],
+        "output":["Concept"],
+        "timeline": "2025"
+        },
+        "overview": {
+            "title": "Toolshall",
+            "description": "A social hub where anyone can discover online tools, save them into groups, organize into collections, and bundle into decks.",
+            "purpose": [
+            "Social platform to find, save, and share online tools, organized into groups, collections, and decks."
+            ],
+            "problem": [
+            "Tools shared online are scattered across social media, making them hard to find and keep track of."
+            ],
+            "solution": [
+            "A community hub to find tools, group them, organize into collections, and bundle into themed decks"
+            ],
+            "vision": [
+            "The go-to place for discovering, organizing, and exploring tool decks."
+            ]
+
+        },
+        "underthehood" : {
+            "background": "I often saw posts with amazing tools, usually just a picture, short caption, and link. They grabbed my attention but were not easy to explore, save, or organize",
+            "myrole": ["Handled UI/UX design"],
+            "creditto": [],
+            "tools": ["Figma"],
+            "links": {
+                "site": "#", "github": "#",
+                "figma": "#",  "devpost": "#"
+            }
+        },
+        "snapshots": [
+            "/img/Toolshall/TH_Thumb.png", "/img/Toolshall/TH_Mockup1.png",
+            "/img/Toolshall/TH_Mockup2.png",
+            "/img/Toolshall/TH_DSys.png", "/img/Toolshall/TH_All.png"
+        ]
+        
+        
+    }
+]
