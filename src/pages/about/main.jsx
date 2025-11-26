@@ -4,7 +4,7 @@ import Contact from "../contact";
 
 export default function About() {
     return ( 
-        <header className="space-y-12">
+        <header className="page-container">
             <AboutMe />
             <PreferredTools/>
             <Contact />

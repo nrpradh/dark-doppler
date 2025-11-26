@@ -11,7 +11,7 @@ import NotFound from "./pages/not-found";
 export default function App() {
   const lenisRef = useRef();
   const lenis = new Lenis({
-    duration: 0.8,   // Slippery at Higher value
+    duration: 0.7,   // Slippery at Higher value
     smooth: true,    
     lerp: 0.2,           // Smoother scrolling
     wheelMultiplier: 1.5, // Slower scroll speed
@@ -31,7 +31,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <main className="px-12 py-6">
+      <main className="md:px-12 px-6 py-6">
         <Navbar />
 
         <Routes>

@@ -5,7 +5,7 @@ import Contact from "../contact";
 
 export default function Home() {
     return ( 
-        <header className="space-y-12">
+        <header className="page-container">
             <Hero />
             <Services />
             <SelectedWorks selectedIds={[11, 10, 4]} />

@@ -23,6 +23,9 @@
 body {
     background-color: #eaeaea;
 }
+.page-container {
+    @apply space-y-24 pt-16
+}
 
 h1 {
     @apply uppercase font-antonio-regular md:text-[188px]  text-5xl
@@ -52,7 +55,7 @@ li, time, h5, p {
 }
 
 .linkto:hover {
-    @apply text-red-700 underline ease-out duration-200
+    @apply text-red-700 underline ease-out duration-200 transition-all
 }
 
 
