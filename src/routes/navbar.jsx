@@ -11,9 +11,9 @@ export default function Navbar() {
 
                 </aside>
                 <nav className="flex space-x-12">
-                    <Link to='/about' className=" hover:text-red-700">About</Link>
-                    <Link to='/works' className=" hover:text-red-700">Works</Link>
-                    <a href='#contact' className=" hover:text-red-700">Contact</a>
+                    <Link to='/about' className="linkto" >About</Link>
+                    <Link to='/works' className="linkto">Works</Link>
+                    <a href='#contact' className="linkto"> Contact</a>
                 </nav>
             </div>
         </header>

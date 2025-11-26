@@ -1,10 +1,17 @@
+import Marquee from "react-fast-marquee";
+import { Link } from "react-router";
+
+import works from '../../data/AllWorks.json'
+
 export default function Hero() {
+    const workImages = works.map(p => p.snapshots[0])
+
     return (
         <section 
-            className="flex flex-col justify-between min-h-[90vh]"
+            className="flex flex-col justify-between min-h-[85vh]"
             aria-labelledby="hero-title"
         >
-            <header className="flex flex-col space-y-4">
+            <header className="flex flex-col space-y-6">
                 <h1 id="hero-title" className="leading-none">
                     Nathan R. Pradhana
                 </h1>
@@ -18,38 +25,32 @@ export default function Hero() {
                 </p>
             </header>
 
-            <div className="flex justify-between items-end">
+            <div className="grid grid-cols-2 justify-between items-end">
                 
                 <section aria-labelledby="works-heading" className="flex flex-col space-y-4">
-                    <h3 id="works"> Works</h3>
+                    <h4 id="works"> My Works</h4>
 
                     <div 
-                        className="flex space-x-4"
+                        className="flex space-x-4 border-r border-l w-5/6"
                         aria-label="works-preview"
                     >
-                        <img 
+                        {/* <img 
                             alt="Project preview 1" 
                             className="w-60 h-36 object-cover object-center" 
                             src="https://dummyimage.com/606x366"
                         />
 
-                        <img 
-                            alt="Project preview 2" 
-                            className="w-60 h-36 object-cover object-center" 
-                            src="https://dummyimage.com/606x366"
-                        />
-
-                        <img 
-                            alt="Project preview 3" 
-                            className="w-60 h-36 object-cover object-center" 
-                            src="https://dummyimage.com/606x366"
-                        />
+                         */}
+                        <Marquee speed={40} pauseOnHover={true} gradient={false} gradientColor="#eaeaea" gradientWidth={35}>
+                            {workImages.map((src, idx) => ( 
+                                <img key={idx} src={src} alt={`work${idx + 1}`} className="mr-4 border w-60 h-36 object-cover object-center rounded" /> ))} 
+                        </Marquee>
                     </div>
                 </section>
 
-                <nav aria-label="Hero navigation" className="flex space-x-6">
-                    <a href="#know-more" className="hover:underline">Know More</a>
-                    <a href="#contact" className="hover:underline">Get in Touch</a>
+                <nav aria-label="Hero navigation" className="flex space-x-6  justify-end  ">
+                    <Link to="/about" className="linkto">Know More</Link>
+                    <a href="#contact" className="linkto">Get in Touch</a>
                 </nav>
             </div>
         </section>

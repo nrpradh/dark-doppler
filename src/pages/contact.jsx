@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <section
             id="contact"
-            className="flex flex-col items-center justify-center min-h-[90vh]"
+            className="flex flex-col items-center justify-evenly min-h-[90vh]"
             aria-labelledby="contact-title"
         >
             <header>
@@ -27,11 +27,11 @@ export default function Contact() {
             </figure>
 
             {/* CONTACT INFO */}
-            <address className="flex flex-col items-center not-italic py-8 space-y-8">
+            <address className="flex flex-col not-italic items-center pt-8 md:space-y-12 space-y-16 ">
                 
                 {/* EMAIL */}
-                <p className="flex items-center space-x-2 text-lg">
-                    <MdEmail className="size-7" aria-hidden="true" />
+                <p className="flex items-center space-x-2 text-lg linkto">
+                    <MdEmail className="size-6" aria-hidden="true" />
                     <a 
                         href="mailto:nathanrprad@gmail.com" 
                         className="hover:underline font-dm-sans-regular  md:text-xl mb-2"
@@ -41,13 +41,13 @@ export default function Contact() {
                 </p>
 
                 {/* SOCIAL LINKS */}
-                <ul className="flex justify-between w-full max-w-xl md:space-x-20 space-x-12">
+                <ul className="flex justify-between  md:space-x-20 space-x-12">
                     <li>
                         <a 
                             href="https://github.com/nrpradh" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="flex items-center space-x-2"
+                            className="flex items-center space-x-2 linkto"
                         >
                             <FaGithub className="size-6" aria-hidden="true" />
                             <FaDribbble className="size-6" aria-hidden="true" />
@@ -61,9 +61,9 @@ export default function Contact() {
                             href="https://linkedin.com/in/nathanrpradhana" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="flex items-center space-x-2"
+                            className="flex items-center space-x-2 linkto"
                         >
-                            <FaLinkedin className="size-7" aria-hidden="true" />
+                            <FaLinkedin className="size-6" aria-hidden="true" />
                             <span>nathanrpradhana</span>
                         </a>
                     </li>

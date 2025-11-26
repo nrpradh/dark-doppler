@@ -1,3 +1,5 @@
+// import AboutPfp from '../../assets/personal/thepfp.png'
+
 export default function AboutMe() {
     return ( 
         <section className="flex flex-col  justify-between min-h-[80vh] ">
@@ -7,8 +9,9 @@ export default function AboutMe() {
                     <div>
 
                         <img 
-                            alt="Project preview 1" 
+                            alt="about-me-pfp" 
                             className=" object-cover object-center" 
+                            // src="../../assets/personal/thepfp.png"
                             src="https://dummyimage.com/640x320"
                         />
                     </div>

@@ -6,6 +6,7 @@ import Navbar from "./routes/navbar";
 import Home from "./pages/landing/main";
 import About from "./pages/about/main";
 import Works from "./pages/works/main";
+import NotFound from "./pages/not-found";
 
 export default function App() {
   const lenisRef = useRef();
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/works" element={<Works />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
     </BrowserRouter>

@@ -48,9 +48,12 @@ li, time, h5, p {
 }
 
 .img-preview {
-    @apply object-cover object-center rounded border-2
+    @apply object-cover object-center rounded border
 }
 
+.linkto:hover {
+    @apply text-red-700 underline ease-out duration-200
+}
 
 
 /* Each Antonio FONTS */
