@@ -39,8 +39,8 @@ export default function AllWorks() {
 
             return (
             <div key={yearData.year} className="py-10">
-                <div className="border-b mb-6">
-                <time dateTime={yearData.year}>{yearData.year}</time>
+                <div className="border-b mb-6 mt-8 relative">
+                    <time dateTime={yearData.year} className="absolute -top-4 px-4 border rounded bg-[#eaeaea]">{yearData.year}</time>
                 </div>
 
                 {/* 3-column Grid */}

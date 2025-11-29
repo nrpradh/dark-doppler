@@ -34,7 +34,7 @@ export default function SelectedWorks({selectedIds =[]}) {
         <section className="flex flex-col min-h-[90vh]" aria-labelledby="selected-works-title">
         <header>
             <h2 id="selected-works-title" className="leading-none">
-            Selected Works
+            Featured Works
             </h2>
         </header>
 
@@ -55,6 +55,9 @@ export default function SelectedWorks({selectedIds =[]}) {
                     </article>
                 ))}
             </div>
+            {/* <div className="flex flex-col items-center ">
+                <h4> see more works</h4>
+            </div> */}
         </section>
     );
 }

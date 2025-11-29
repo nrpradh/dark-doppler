@@ -55,7 +55,7 @@ export default function Navbar() {
             <img
                 src="https://dummyimage.com/606x606"
                 alt="Logo"
-                className="size-16  w-auto object-contain mix-blend-difference "
+                className="size-16  w-auto object-contaiJn mix-blend-difference "
             />
             </Link>
 

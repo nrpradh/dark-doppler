@@ -15,7 +15,7 @@ export default function Contact() {
             </header>
 
             {/* VISUAL / HERO */}
-            <figure className="pt-12">
+            <figure className="pt-6">
                 <img 
                     src="https://dummyimage.com/800x300"
                     alt="Decorative banner for contact section"
